@@ -1,6 +1,6 @@
 <?php
-&connect = mysql_connect("127.0.0.1","root","root");
+$connect = mysql_connect("localhost","root","");
 
-$db = mysql_select_db("bd2", &connect);
+$db = mysql_select_db("bd2", $connect);
 
 ?>

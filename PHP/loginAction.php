@@ -1,14 +1,20 @@
 <?php
 
-include 'connect';
-
-$sql = "SELECT * FROM <USER TABLE> WHERE <USER> = '"+$_POST["txtUser"]+"'";
-&result = mysql_query(&sql,&connect);
 
 
-while($row = mysqli_fetch_array($result)){
-	if(&row["<camponobandi>"] == $_POST["txtSenha"]){
-		header("Location:mainpage.php");
+include 'connect.php';
+
+$test = "SELECT * FROM usuario WHERE login = '".$_POST["txtUser"]."'";
+echo $test;
+
+$result = mysql_query($test,$connect);
+
+
+if($result!=null){
+	while($row = mysql_fetch_array($result)){
+		if($row["senha"] == $_POST["txtSenha"]){
+			header("Location:mainpage.php");
+		}
 	}
 }
 ?>
