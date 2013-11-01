@@ -13,7 +13,11 @@ $result = mysql_query($test,$connect);
 if($result!=null){
 	while($row = mysql_fetch_array($result)){
 		if($row["senha"] == $_POST["txtSenha"]){
-			header("Location:mainpage.php");
+			if($row["tipo"] == 1){
+				header("Location:mainpageAdmin.php");
+			}else{
+				header("Location:mainpageCliente.php");
+			}
 		}
 	}
 }
