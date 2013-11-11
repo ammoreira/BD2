@@ -49,10 +49,7 @@ $loginExistente = 0;
 	
 	if($result2 == true){
 		echo "<h3>Cadastro efetuado com sucesso! Cadastre telefones para usario</h3>";
-		
-		href="test_get.php?subject=PHP&web=W3schools.com">Test $GET
-		header( "Refresh:2; href=../cadastroUsuarioTelefone.php?subject=$login">$GET, true, 303);
-	//	header( "Refresh:2; url=http://localhost/BD2/cadastroUsuarioTelefone.php", true, 303);
+		header( "Refresh:2; url=http://localhost/BD2/cadastroUsuarioTelefone.php", true, 303);
 		
 	}else{
 			echo "<h3>Falha ao cadastrar usu&aacute;rio</h3>";

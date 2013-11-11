@@ -9,7 +9,7 @@
 	
 		<center>
 			<h3>Cadastro de fundadores de museus</h3>
-			<form method = "POST" action="" border=1>
+			<form method = "POST" action="PHP/cadastroFundadorAction.php" border=1>
 		        <h4>Insira os dados para efetuar o cadastro </h4>
 		
 			    Nome &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="Text" name="fundadorNome"><br>

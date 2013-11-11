@@ -9,7 +9,7 @@
 	
 		<center>
 			<h3>Cadastro de novas cidades</h3>
-			<form method = "POST" action="" border=1>
+			<form method = "POST" action="PHP/cadastroCidadeAction.php" border=1>
 		        <h4>Insira os dados para efetuar o cadastro </h4>
 		
 			    Nome &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="Text" name="cidadeNome"><br>

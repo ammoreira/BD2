@@ -9,12 +9,12 @@
 	
 		<center>
 			<h3>Cadastro de quartos de hot&eacute;is</h3>
-			<form method = "POST" action="" border=1>
+			<form method = "POST" action="PHP/cadastroQuartoAction.php" border=1>
 		        <h4>Insira os dados para efetuar o cadastro </h4>
 		
 				Valor de Diaria &nbsp;&nbsp;&nbsp;&nbsp;<input type="Text" name="quartoDiaria"><br>
 			    N&uacute;mero &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="Text" name="quartoNumero"><br>
-				Categoria <select name="hotelCategoria">
+				Categoria &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="quartoCategoria">
                      <option value="simples solteiro"> Simples solteiro</option>
 					 <option value="simples casal"> Simples casal </option>
                      <option value="luxo solteiro"> Luxo solteiro</option>
@@ -27,7 +27,7 @@
                      <option value="quadruplo"> Quadruplo</option> 
                      <option value="Presidencial"> Presidencial</option> 					 
 					 </select><br>        			 
-			    Hotel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name='HotelId'>";
+			    Hotel &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name='hotelId'>";
 <?php
 include '/PHP/connect.php';
 			$sql = "SELECT * FROM hotel";
