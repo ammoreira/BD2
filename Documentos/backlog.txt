@@ -1,0 +1,51 @@
+Como cliente preciso visualizar todos os hoteis para uma cidade.
+	-visualizar dados dos Hotéis - (endereço, numero de estrelas, quantidade de quartos, ...)     -	-	-visualizar se possui restaurante (se possuir visualizar seu preço médio, especialidade, tipo, ...)
+
+Como cliente preciso visualizar todos os Restaurantes para uma cidade.
+	-visualizar dados dos restaurantes (endereço, tipo, especialidade, preço med,...)
+ 
+como cliente preciso visualizar todas as Igrejas de uma cidade.
+	-visualizar dados das Igrejas
+
+Como cliente preciso visualizar todos os Museus para uma cidade.
+	-visualizar dados dos Museus
+
+como cliente preciso visualizar todas as Casas de show em um cidade.
+	-visualizar dados das Casas de Show - (endereço, numero de estrelas, quantidade de quartos, ...)
+	-visualizar se possui restaurante (se possuir visualizar seu preço médio, especialidade, tipo, ...)
+
+como cliente preciso poder reservar passeios em casas de show.
+
+como cliente preciso poder excluir minhas reservas.
+
+Como administrador preciso poder excluir usuários
+
+Como administrador preciso poder excluir Cidades
+
+Como administrador preciso poder excluir Restaurantes
+
+Como administrador preciso poder excluir hotéis
+
+Como administrador preciso poder excluir casa de show
+
+Como administrador preciso poder excluir igrejas
+
+Como administrador preciso poder excluir museus
+
+como cliente preciso poder excluir minhas reservas.
+
+Como administrador preciso poder atualizar usuários
+
+Como administrador preciso poder atualizarCidades
+
+Como administrador preciso poder atualizar Restaurantes
+
+Como administrador preciso poder atualizar hotéis
+
+Como administrador preciso poder atualizar casa de show
+
+Como administrador preciso poder atualizar igrejas
+
+Como administrador preciso poder atualizar museus
+
+
